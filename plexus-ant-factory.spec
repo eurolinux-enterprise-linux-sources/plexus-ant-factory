@@ -33,7 +33,7 @@
 
 Name:           %{parent}-%{subname}
 Version:        1.0
-Release:        0.11.a2.3%{?dist}
+Release:        0.12.a2.3%{?dist}
 Epoch:          0
 Summary:        Plexus Ant component factory
 # Email from copyright holder confirms license.
@@ -94,6 +94,9 @@ cp %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.0-0.12.a2.3
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.0-0.11.a2.3
 - Remove workaround for rpm bug #646523
 - Remove BR on maven2-common-poms
